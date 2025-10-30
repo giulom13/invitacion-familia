@@ -261,6 +261,39 @@
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 3rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section h2 {
+        font-size: 2.2rem;
+      }
+      .countdown-section h2 {
+        font-size: 1.8rem;
+      }
+      .countdown-container div {
+        min-width: 55px;
+        padding: 8px;
+      }
+      .countdown-container span {
+        font-size: 1.5rem;
+      }
+      .countdown-container {
+        gap: 10px;
+      }
+      .info-box {
+        width: 100%; /* Make info boxes stack on very small screens */
+        max-width: 300px; /* Limit width for better readability */
+      }
+      .popup-content {
+        padding: 20px;
+        max-width: 90%;
+      }
+    }
   </style>
 </head>
 <body>
